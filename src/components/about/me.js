@@ -12,11 +12,11 @@ function Me(){
             <img src='/images/IMG_6411.PNG' height='1200px'width='900px'/>
          </div>
          <div className='me-gallery'>
-            <img className='me-pic' src='' height='150px' width='300px'/>
-            <img className='me-pic' src='' height='150px' width='300px'/>
-            <img className='me-pic' src='' height='150px' width='300px'/>
-            <img className='me-pic' src='' height='150px' width='300px'/>
-            <img className='me-pic' src='' height='150px' width='300px'/>
+            <img className='me-pic' src='' height='150px' width='300px' alt=''/>
+            <img className='me-pic' src='' height='150px' width='300px' alt=''/>
+            <img className='me-pic' src='' height='150px' width='300px' alt=''/>
+            <img className='me-pic' src='' height='150px' width='300px' alt=''/>
+            <img className='me-pic' src='' height='150px' width='300px' alt=''/>
          </div>
          <div className='next'>
             <Link to='/about/dogs'>BACK</Link>
