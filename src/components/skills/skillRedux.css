@@ -1,0 +1,10 @@
+.redux-skill-review{
+    color: white;
+    padding: 200px;
+}
+@media screen and (min-width: 480px){
+    .redux-skill-review{
+        color: white;
+        padding: 100px;
+    }
+}

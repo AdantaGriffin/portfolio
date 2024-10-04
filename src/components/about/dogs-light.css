@@ -1,0 +1,53 @@
+
+.dogs-text{
+    position: relative;
+    top: 60px;
+    color: black;
+    width: 70%;
+    margin: auto;
+    font-size: 1.5em;
+}
+.dogs-gallery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+}
+.dogs-gallery img{
+    margin-right: 40px;
+}
+.next{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.next a{
+    color: green;
+    text-decoration: none;
+}.next a:hover{
+    font-weight: 900;
+}
+
+@media screen and (max-width:570px){
+    .dogs-text{
+        position: relative;
+        bottom: 650px;
+        left: 10px;
+        color: black !important;
+    }
+    .next{
+        width: 100%;
+        background-color: white !important;
+        height: 100px;
+        font-size: 4em;
+        text-align: center;
+        padding-top: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+}

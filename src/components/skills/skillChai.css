@@ -1,0 +1,10 @@
+.chai-skill-review{
+    color: white;
+    padding: 200px;
+}
+@media screen and (min-width: 480px){
+    .chai-skill-review{
+        color: white;
+        padding: 100px;
+    }
+}

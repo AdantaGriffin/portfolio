@@ -1,0 +1,122 @@
+header{
+    height: 100px;
+}
+.header-logo{
+    font-size: 5em;
+    font-weight: 800;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    letter-spacing: .1em;
+    height: 100px;
+}
+.header-logo a{
+    color: black;
+}
+nav{
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.ul1{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.ul1 li{
+    color: white;
+    text-decoration: none;
+}
+.ul1 a:hover{
+    text-decoration: underline;
+}
+.ul1 a.active{
+    color: lightblue;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+.li1{
+    font-size: 1.5em;
+}
+.li1:hover{
+    text-decoration: underline;
+}
+.connect-icons{
+    display: none;
+    position: relative;
+    top: 20px;
+}
+#connect:hover{
+    .connect-icons{
+        display: block;
+        list-style-type: none;
+    }
+}
+.nav2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.ul2{
+    display: flex;
+    list-style-type: none;
+}
+.li2{
+    font-size: 1.5em;
+    margin-right: 9px;
+    color: white;
+    text-decoration: none;
+}
+.li2:hover{
+    text-decoration: underline;
+}
+.li2.active{
+    color: lightblue;
+}
+@media screen and (max-width:1070px){
+    .ul1{
+        display: none;
+    }
+    .header-logo{
+        width: 250%;
+    }
+    .nav2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .ul2{
+        margin: auto;
+    }
+}
+@media screen and (min-width:1070px){
+    .ul2{
+        display: none;
+    }
+    .ul1{
+        font-size:1.7em;
+        position: relative;
+        right: 30px;
+    }
+}
+@media screen and (min-width:499px){
+    #connect{
+        position: relative;
+        left: 20px;
+    }
+    .ul2{
+        position: relative;
+        right: 65px;
+    }
+    .ul2, .li1{
+        font-size: .8em;
+    }
+}
+#weather{
+    color: red;
+    font-size: 1.5em;
+}

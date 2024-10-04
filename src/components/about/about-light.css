@@ -1,0 +1,114 @@
+.about{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 900px;
+}
+@media screen and (max-width:1070px){
+    .about{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .about-img{
+        width: 80%;
+    }
+    .about-heading{
+        position: relative;
+        bottom: 40px;
+        right: 36px;
+    }
+    .about-info{
+        margin: auto;
+        position: relative;
+        right: 30px;
+    }
+    .next{
+        position: relative;
+        top: 300px;
+    }
+}
+@media screen and (max-width:570px){
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-img{
+        height: 1300px;
+        width: 490px;
+        margin-right: 20px;
+    }
+    .about-text h1, p{
+        position: relative;
+        bottom: 650px;
+        left: 10px;
+        color: white !important;
+    }
+    .next{
+        width: 100%;
+        background-color: white !important;
+        height: 100px;
+        font-size: 4em;
+        text-align: center;
+        padding-top: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+.about-heading{
+    font-size: 4em;
+}
+.about-img{
+    margin-left: 20px;
+    background-image: url('/public/images/aboutImg.PNG');
+    background-position: center;
+}
+.about-text{
+    height: 75%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    font-size: 1.5em;
+}
+.about-text h1{
+    color: black;
+}
+.about-text p{
+    color: black;
+}
+.about-info{
+    margin: auto;
+}
+.about-gallery{
+    height: 150px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-image{
+    border: 1px solid black;
+    margin-right: 5px;
+}
+.dog-dad{
+    width: 1440px;
+}
+.dog-pics{
+    border: 1px solid red;
+}
+.next{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.next a{
+    color: green;
+    text-decoration: none;
+}.next a:hover{
+    font-weight: 900;
+}

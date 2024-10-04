@@ -1,0 +1,86 @@
+.resume-header{
+    color: black;
+}
+.resume{
+    color: black;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.header{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.header-left{
+    background-color: green;
+}
+.header-right{
+    text-align: center;
+    margin: auto;
+}
+.header-title{
+    margin: auto;
+}
+.header-right p {
+    width: 70%;
+    margin: auto;
+}
+.header-right hr{
+    width: 80%;
+}
+
+
+.resume-contacts{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    height: 50px;
+}
+.resume-contacts img{
+    height: 70%;
+    margin: auto;
+}
+.resume-phone{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.resume-email{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.resume-location{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.resume-main{
+    margin: 50px 50px;
+}
+.row-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+.resume-list li{
+    list-style-type:circle;
+    line-height: 1.6;
+}
+.row-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+.row-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+.resume-main h3{
+    text-decoration: underline;
+    color: green;
+}

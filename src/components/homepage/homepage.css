@@ -1,0 +1,32 @@
+.homepage-title{
+    background-image: url('../../../public/images/brooklyn.png');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+.homepage-heading{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-size: 500%;
+}
+@media screen and (min-width:1070px) {
+    .homepage-heading{
+        font-size: 525%;
+    }
+}
+@media screen and (max-width:1070px) {
+    .homepage-heading{
+        font-size: 270%;
+        position: relative;
+        top: 200px;
+    }
+}
+@media screen and (max-width:500px) {
+    .homepage-heading{
+        font-size: 265%;
+        position: relative;
+        top: 200px;
+    }
+}

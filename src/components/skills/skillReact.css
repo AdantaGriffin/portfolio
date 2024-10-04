@@ -1,0 +1,10 @@
+.react-skill-review{
+    color: white;
+    padding: 200px;
+}
+@media screen and (min-width: 480px){
+    .react-skill-review{
+        color: white;
+        padding: 100px;
+    }
+}

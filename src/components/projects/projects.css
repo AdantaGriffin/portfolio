@@ -1,0 +1,45 @@
+.projects-header{
+    text-align: center;
+    font-size: 3em;
+}
+.projects-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    flex-direction:row-reverse;
+    padding: 10px;
+}
+.projects-title{
+    font-size: 2em;
+}
+.projects{
+    color: white;
+    height: 580px;
+    width: 200px;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    border: 3px solid grey;
+}
+.project-info{
+    display: grid;
+    grid-template-rows: 1fr 1f 1fr;
+}
+.projects a{
+    position: relative;
+    left: 30px;
+}
+.projects a:hover{
+    font-size: 1.2em;
+}
+.projects img{
+    background-color: aliceblue;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+.project-info{
+    text-align: center;
+}
