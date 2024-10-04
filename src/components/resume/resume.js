@@ -19,15 +19,15 @@ function Resume(){
 
                 <div className='resume-contacts'>
                     <div className='resume-phone'>
-                        <img width='20px' src='/images/phone.png'/>
+                        <img width='20px' src='/images/phone.png' alt=''/>
                         <p>718.820.2506</p>
                     </div>
                     <div className='resume-email'>
-                        <img width='20px' src='/images/envelope.png'/>
+                        <img width='20px' src='/images/envelope.png' alt=''/>
                         <p>griffinadanta90@gmail.com</p>
                     </div>
                     <div className='resume-location'>
-                        <img width='20px' src='/images/gps.png'/>
+                        <img width='20px' src='/images/gps.png' alt=''/>
                         <p>Brooklyn, NYC</p>
                     </div>
                 </div>

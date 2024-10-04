@@ -5,7 +5,6 @@ import { NavLink, Link } from 'react-router-dom';
 
 const apiKey = '29cea5460e794d7897761918240109';
 const baseUrl = 'http://api.weatherapi.com/v1';
-const requestParams = `?api_key=${apiKey}`;
 
 const getCurrentWeather = async () => {
     const currentWeather = `/current.json`;
@@ -20,8 +19,6 @@ const getCurrentWeather = async () => {
         const temp = jsonResponse.current.temp_f;
         const timeline = document.getElementById('weather');
         timeline.innerHTML = `${day} ${time}  ${Math.floor(temp)}°`;
-        const city = jsonResponse.location.name;
-        const state = jsonResponse.location.region;
       }
     }catch(error){
       console.log(error)
