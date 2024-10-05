@@ -117,7 +117,7 @@ nav{
     }
 }
 
-@media screen and (max-width:320px){
+@media screen and (min-width: 300px){
     .ul1{
         display: none;
     }
