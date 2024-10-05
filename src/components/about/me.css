@@ -65,3 +65,26 @@ h1 + p{
         margin-left: 85px;
     }
 }
+
+@media screen and (min-width:320px){
+    .me1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .me-text{
+        width: 490px;
+    }
+    .me1 img{
+        margin: auto;
+        width: 390px;
+    }
+    .me-gallery{
+        display: flex;
+    }
+    .me-pic{
+        height: 300px;
+        width: 350px;
+        border: 1px solid red;
+        margin-left: 85px;
+    }
+}

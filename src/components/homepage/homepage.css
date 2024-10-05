@@ -30,3 +30,13 @@
         top: 200px;
     }
 }
+
+@media screen and (min-width:320px) {
+    .homepage-heading{
+        font-size: 200%;
+    }
+    .homepage-title{
+        position: relative;
+        bottom: px;
+    }
+}
